@@ -6,66 +6,66 @@ This repository provides all of the code used to analyze the data, run the simul
 
 # Directory structure
 
-├── data_simulations
-│   ├── .download_from_data_dryad
-├── data_experiments_clean
-│   ├── .download_from_data_dryad
-├── data_experiments_raw
-│   ├── .download_from_data_dryad
-├── data_experiments_preprocessed
-│   ├── .download_from_data_dryad
-├── data_tmp
-│   ├── .temporary_storage_for_intermediate_processing_steps
-├── code
-│   ├── convex_solve_tan_cot.py
-│   ├── direct_trajectory_simulator.py
-│   ├── run_ALL_analysis.py
-│   ├── run_analysis.py
-│   ├── utility.py
-│   ├── plot_utility.py
-├── figures_png
-├── figures_svg
-│   ├── fig_1
-│   │   ├── fly_cartoon_2panel.svg
-│   │   └── fly_coordinates.ai
-│   ├── fig_2_anemotaxis.svg
-│   ├── fig_3_algorithm_flow.svg
-│   ├── fig_4_wind.svg
-│   ├── fig_5_fly_trajectories.svg
-│   ├── fig_6_botfly.svg
-│   ├── fig_7_cvx_estimate_overview.svg
-│   ├── fig_8_time_constants.svg
-│   ├── fig_9_absine_aligngamma_realdynamic_Tmult1.svg
-│   ├── fig_9_absine_alignpsi_realconstant_Tmult1.svg
-│   ├── fig_9_absine_alignpsi_realdynamic_Tmult1.svg
-│   ├── fig_9_constant_alignpsi_realdynamic_Tmult1.svg
-│   ├── fig_10_summary.svg
-│   ├── fig_11_gamma_analysis.svg
-│   ├── fig_S1_bestomega.svg
-│   └── fig_S2_bestT.svg
-├── notebooks_to_generate_figures
-│   ├── fig_2_anemotaxis.ipynb
-│   ├── fig_3_algorithm_flow_figure.ipynb
-│   ├── fig_4B_wind.ipynb
-│   ├── fig_4CD_wind.ipynb
-│   ├── fig_5_fly_trajectories.ipynb
-│   ├── fig_6_botfly.ipynb
-│   ├── fig_7_cvx_estimate_overview.ipynb
-│   ├── fig_8_time_constants.ipynb
-│   ├── fig_9_3noise_heatmaps.ipynb
-│   ├── fig_10_summary.ipynb
-│   ├── fig_11_gamma_analysis.ipynb
-│   ├── fig_S1_best_omega.ipynb
-│   └── fig_S2_bestT.ipynb
-├── preprocess_raw_botfly_data
-│   ├── step_1_read_interpolate_and_merge_raw_botfly_data.ipynb
-│   └── step_2_convert_botfly_data_to_compatible_dataframe.ipynb
-├── preprocess_raw_wind_data
-│   ├── load_windgps_data_to_pandas.py
-│   ├── process_windgps_data.py
-│   ├── step_1_process_windgps_data_notebook.ipynb
-│   └── step_2_merge_and_convert_wind_data.ipynb
-└── README.md
+    ├── data_simulations
+    │   ├── .download_from_data_dryad
+    ├── data_experiments_clean
+    │   ├── .download_from_data_dryad
+    ├── data_experiments_raw
+    │   ├── .download_from_data_dryad
+    ├── data_experiments_preprocessed
+    │   ├── .download_from_data_dryad
+    ├── data_tmp
+    │   ├── .temporary_storage_for_intermediate_processing_steps
+    ├── code
+    │   ├── convex_solve_tan_cot.py
+    │   ├── direct_trajectory_simulator.py
+    │   ├── run_ALL_analysis.py
+    │   ├── run_analysis.py
+    │   ├── utility.py
+    │   ├── plot_utility.py
+    ├── figures_png
+    ├── figures_svg
+    │   ├── fig_1
+    │   │   ├── fly_cartoon_2panel.svg
+    │   │   └── fly_coordinates.ai
+    │   ├── fig_2_anemotaxis.svg
+    │   ├── fig_3_algorithm_flow.svg
+    │   ├── fig_4_wind.svg
+    │   ├── fig_5_fly_trajectories.svg
+    │   ├── fig_6_botfly.svg
+    │   ├── fig_7_cvx_estimate_overview.svg
+    │   ├── fig_8_time_constants.svg
+    │   ├── fig_9_absine_aligngamma_realdynamic_Tmult1.svg
+    │   ├── fig_9_absine_alignpsi_realconstant_Tmult1.svg
+    │   ├── fig_9_absine_alignpsi_realdynamic_Tmult1.svg
+    │   ├── fig_9_constant_alignpsi_realdynamic_Tmult1.svg
+    │   ├── fig_10_summary.svg
+    │   ├── fig_11_gamma_analysis.svg
+    │   ├── fig_S1_bestomega.svg
+    │   └── fig_S2_bestT.svg
+    ├── notebooks_to_generate_figures
+    │   ├── fig_2_anemotaxis.ipynb
+    │   ├── fig_3_algorithm_flow_figure.ipynb
+    │   ├── fig_4B_wind.ipynb
+    │   ├── fig_4CD_wind.ipynb
+    │   ├── fig_5_fly_trajectories.ipynb
+    │   ├── fig_6_botfly.ipynb
+    │   ├── fig_7_cvx_estimate_overview.ipynb
+    │   ├── fig_8_time_constants.ipynb
+    │   ├── fig_9_3noise_heatmaps.ipynb
+    │   ├── fig_10_summary.ipynb
+    │   ├── fig_11_gamma_analysis.ipynb
+    │   ├── fig_S1_best_omega.ipynb
+    │   └── fig_S2_bestT.ipynb
+    ├── preprocess_raw_botfly_data
+    │   ├── step_1_read_interpolate_and_merge_raw_botfly_data.ipynb
+    │   └── step_2_convert_botfly_data_to_compatible_dataframe.ipynb
+    ├── preprocess_raw_wind_data
+    │   ├── load_windgps_data_to_pandas.py
+    │   ├── process_windgps_data.py
+    │   ├── step_1_process_windgps_data_notebook.ipynb
+    │   └── step_2_merge_and_convert_wind_data.ipynb
+    └── README.md
 
 # Data format
 
