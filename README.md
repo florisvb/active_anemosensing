@@ -6,7 +6,6 @@ This repository provides all of the code used to analyze the data, run the simul
 
 # Directory structure
 
-'''
 ├── data_simulations
 │   ├── .download_from_data_dryad
 ├── data_experiments_clean
@@ -67,7 +66,6 @@ This repository provides all of the code used to analyze the data, run the simul
 │   ├── step_1_process_windgps_data_notebook.ipynb
 │   └── step_2_merge_and_convert_wind_data.ipynb
 └── README.md
-'''
 
 # Data format
 
