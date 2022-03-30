@@ -10,7 +10,6 @@ import time
 
 try:
     import convex_solve_tan_cot
-    import linear_solve_tan_cot
 except ImportError:
     print('probably could not import cvxpy, not an issue if you dont need it here')
           

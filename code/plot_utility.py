@@ -18,6 +18,39 @@ import utility
 
 FONTSIZE = 7
 
+def mathify_ticklabels(ax, axis, ticks=None, ticklabels=None):
+    '''
+    Convert tick labels to math font style by putting them inside '$$'.
+    If ticks is None: automatically get ticks
+    If ticklabels is not None: add '$$' where needed
+    axis -- 'x' or 'y'
+    '''
+    if ticks is None:
+        if axis == 'x':
+            ticks = ax.get_xticks()
+        else:
+            ticks = ax.get_yticks()
+        
+    if ticklabels is None:
+        ticklabels = []
+        for tick in ticks:
+            if len(str(tick))>0:
+                ticklabels.append(r'$'+str(tick)+r'$')
+        
+    else:
+        for i, ticklabel in enumerate(ticklabels):
+            if type(ticklabel) != str:
+                ticklabel = str(ticklabel)
+            if '$' not in ticklabel and len(ticklabel) > 0:
+                ticklabel = r'$' + ticklabel + r'$'
+                ticklabels[i] = ticklabel
+        
+    if axis == 'x':
+        ax.set_xticklabels(ticklabels)
+    else:
+        ax.set_yticklabels(ticklabels)
+    
+
 def plot_sensor_data(df, angular_noise_std, sensor, psi_freq, show_smooth=False,
                     correction_window_for_2pi=100, ax=None, df_sensor=None, 
                      xticks = [0, 30, 60], xticklabels = ['0', '', '60'], 
@@ -81,7 +114,7 @@ def plot_sensor_data(df, angular_noise_std, sensor, psi_freq, show_smooth=False,
                     'phi': '$\phi$',
                     'psi': '$\psi$',}
     sensorname_latex = {'gamma': 'Air speed\ndirection',
-                    'phi': 'Body\norientation',
+                    'phi': 'Orientation',
                     'psi': 'Ground speed\ndirection',}
     string =   sensorname_latex[sensor] + ', ' + sensor_latex[sensor]
     
@@ -89,6 +122,10 @@ def plot_sensor_data(df, angular_noise_std, sensor, psi_freq, show_smooth=False,
     if 'bottom' in spines:
         ax.set_xlabel('Time, sec')
 
+    #if sensor == 'phi':
+    #    ax.yaxis.set_label_coords(-.15, .6)
+    #else:
+    #    ax.yaxis.set_label_coords(-.05, .6)
     fifi.mpl_functions.set_fontsize(ax, FONTSIZE)
     
 
@@ -114,7 +151,7 @@ def plot_ground_speed(df, ax=None, xticks=[0, 30, 60], yticks=[0, 1.5], show_xsp
                                      tick_length=2.5,
                                      spine_locations={'left': 5, 'bottom': 5},
                                      linewidth=0.5)
-    ax.yaxis.set_label_coords(-0.13, .5)
+    #ax.yaxis.set_label_coords(-0.15, .6)
     ax.set_ylabel('Ground speed,\nm/s')
     
     if show_xspine:
@@ -147,6 +184,7 @@ def plot_globalpsi(df, ax=None, xticks=[0, 30, 60], yticks=[-np.pi, 0, np.pi]):
     
     ax.set_xlabel('Time, sec')
 
+    #ax.yaxis.set_label_coords(-.15, .6)
     fifi.mpl_functions.set_fontsize(ax, FONTSIZE)
     
 
@@ -514,11 +552,14 @@ def plot_error_heatmap(error_heatmap, directory, basename, angular_noise_std=0.1
                                          linewidth=0.5)
 
         ax.minorticks_off()
-        ax.set_yticklabels(yticks)
-        ax.set_xticklabels(xticks)
-
+        #ax.set_yticklabels(yticks)
+        #ax.set_xticklabels(xticks)
+        mathify_ticklabels(ax, 'x', xticks)
+        mathify_ticklabels(ax, 'y', yticks)
+        
     if show_xspine and show_yspine:
         ax.set_ylabel('Turning frequency, Hz')
+        #ax.yaxis.set_label_coords(-.22, .6)
         ax.set_xlabel(r'$\tau$, sec')
 
     fifi.mpl_functions.set_fontsize(ax, FONTSIZE)
@@ -612,7 +653,7 @@ def plot_timeseries(filename, ax=None, spines=['left', 'bottom'], filter=False, 
         print(xticks)
         
         yticks = [0, np.pi/2., np.pi, 3*np.pi/2, 2*np.pi]
-        yticklabels = ['0', '', '', '', '$2\pi$']
+        yticklabels = ['$0$', '', '', '', '$2\pi$']
         xticklabels = xticks
 
 
@@ -622,14 +663,16 @@ def plot_timeseries(filename, ax=None, spines=['left', 'bottom'], filter=False, 
                                          tick_length=2.5,
                                          spine_locations={'left': 5, 'bottom': 5},
                                          linewidth=0.5)
-        ax.yaxis.set_label_coords(-0.1, .5)
+        #ax.yaxis.set_label_coords(-0.1, .5)
         
         ax.set_yticklabels(yticklabels)
+        
 
         ax.set_ylabel('Wind direction,\n$\zeta$')
+        #ax.yaxis.set_label_coords(-.15, .6)
 
         if 'bottom' in spines:
-            ax.set_xticklabels(xticklabels)
+            mathify_ticklabels(ax, 'x', ticks=xticks)
             ax.set_xlabel('Time, min')
             print(xticks)
 
@@ -987,7 +1030,7 @@ def plot_errors(directory, basename, angular_noise_std=0.1, Tmultiplier=1,
         
         
         yticks = [0, np.pi/4., np.pi/2., 3*np.pi/4, np.pi]
-        yticklabels = ['0', '', '', '', '$\pi$']
+        yticklabels = ['$0$', '', '', '', '$\pi$']
         
         ax.set_ylim(yticks[0], yticks[-1])
         
@@ -998,12 +1041,18 @@ def plot_errors(directory, basename, angular_noise_std=0.1, Tmultiplier=1,
                                      spine_locations=spine_locations, #{'left': 5, 'bottom': 5},
                                      linewidth=0.5)
         
-
-        ax.set_xticklabels(taus, rotation='vertical', horizontalalignment='center')
+        taus_str = []
+        for tau in taus:
+            if len(str(tau)) > 0:
+                taus_str.append(r'$'+str(tau)+'$')
+            else:
+                taus_str.append('')
+        print(taus_str)
+        ax.set_xticklabels(taus_str, rotation='vertical', horizontalalignment='center')
         ax.set_yticklabels(yticklabels)
         
         if len(filenames) == 1:
-            ax.yaxis.set_label_coords(-0.9, .5)
+            ax.yaxis.set_label_coords(-1.2, .5)
         if len(filenames) > 1:
             ax.xaxis.set_label_coords(0.13, -0.24)
         

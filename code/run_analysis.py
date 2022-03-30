@@ -10,7 +10,6 @@ import time
 
 try:
     import convex_solve_tan_cot
-    import linear_solve_tan_cot
 except ImportError:
     print('probably could not import cvxpy, not an issue if you dont need it here')
           
@@ -70,6 +69,8 @@ def get_df_random( wind='real',
     constant_v_para = False
     if velocity_profile == 'absine':
         vel = np.abs(np.sin(2*np.pi*psi_freq*t)) + 0.2 #1 #0.5
+    elif velocity_profile == 'fastABSsine':
+        vel = np.abs(np.sin(20*np.pi*psi_freq*t)) + 0.2 #1 #0.5
     else:
         vel = np.abs(np.sin(2*np.pi*psi_freq*t)) + 0.2 #1 #0.5
         mean_vel = np.mean(vel)
@@ -230,6 +231,8 @@ def solve_convex(tau, Ts, psi_freq, df, trajec_type, turn_amplitude, pynumdiff_p
                 fname = 'cvx_' + 'wind' + wind_type + '_' + trajec_type + '_turnamplitude' + turn_amplitude + '_absine_alignpsi' + '_angularnoisestd' + str(angular_noise_std) + '_psifreq' + str(psi_freq) + '_tau' + str(tau) + '_T' + str(T) 
             elif velocity_profile == 'constant' and phi_alignment == 'align_psi':
                 fname = 'cvx_' + 'wind' + wind_type + '_' + trajec_type + '_turnamplitude' + turn_amplitude + '_constantvelocity_alignpsi' + '_angularnoisestd' + str(angular_noise_std) + '_psifreq' + str(psi_freq) + '_tau' + str(tau) + '_T' + str(T) 
+            elif velocity_profile == 'fastABSsine' and phi_alignment == 'align_psi':
+                fname = 'cvx_' + 'wind' + wind_type + '_' + trajec_type + '_turnamplitude' + turn_amplitude + '_fastABSsine_alignpsi' + '_angularnoisestd' + str(angular_noise_std) + '_psifreq' + str(psi_freq) + '_tau' + str(tau) + '_T' + str(T) 
             elif velocity_profile == 'absine' and phi_alignment == 'align_gamma':
                 fname = 'cvx_' + 'wind' + wind_type + '_' + trajec_type + '_turnamplitude' + turn_amplitude + '_absine_aligngamma' + '_angularnoisestd' + str(angular_noise_std) + '_psifreq' + str(psi_freq) + '_tau' + str(tau) + '_T' + str(T) 
                 
@@ -327,7 +330,7 @@ if __name__ == '__main__':
     ###############################################
     # automatically determine correct location to save data
     location = '../data_simulations'
-    directory = '20220301_seed1_' + turn_amplitudes[0] + '_' + velocity_profile + '_' + phis[0].replace('_', '') + '_' + wind
+    directory = '20220301_seed1_' + velocity_profile + '_' + phis[0].replace('_', '') + '_' + wind
     directory = os.path.join(location, directory)
     os.mkdir(directory)
     ###############################################
