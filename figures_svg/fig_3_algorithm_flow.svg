@@ -352,8 +352,8 @@
      borderopacity="1.0"
      id="base"
      inkscape:current-layer="layer1"
-     inkscape:cx="339.85231"
-     inkscape:cy="599.20848"
+     inkscape:cx="-68.470469"
+     inkscape:cy="526.6006"
      inkscape:document-rotation="0"
      inkscape:document-units="in"
      inkscape:pageopacity="0.0"
@@ -687,12 +687,12 @@
        y="266.78516" />
     <g
        id="g64632"
-       style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000"
+       style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000;stroke:#000000;stroke-opacity:1"
        transform="matrix(1.2685454,0,0,1,-21.77669,0)">
       <line
          class="st0"
          id="line5631"
-         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000"
+         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000;stroke:#000000;stroke-opacity:1"
          x1="83.27536"
          x2="159.83379"
          y1="27.901575"
@@ -700,7 +700,7 @@
       <line
          class="st0"
          id="line5633"
-         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000"
+         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000;stroke:#000000;stroke-opacity:1"
          x1="83.27536"
          x2="159.83379"
          y1="38.248711"
@@ -708,7 +708,7 @@
       <line
          class="st0"
          id="line5635"
-         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000"
+         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000;stroke:#000000;stroke-opacity:1"
          x1="83.27536"
          x2="159.83379"
          y1="48.600208"
@@ -716,7 +716,7 @@
       <line
          class="st0"
          id="line5637"
-         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000"
+         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000;stroke:#000000;stroke-opacity:1"
          x1="83.27536"
          x2="159.83379"
          y1="58.947357"
@@ -724,7 +724,7 @@
       <line
          class="st0"
          id="line5639"
-         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000"
+         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000;stroke:#000000;stroke-opacity:1"
          x1="83.27536"
          x2="159.83379"
          y1="69.298843"
@@ -732,7 +732,7 @@
       <line
          class="st0"
          id="line5641"
-         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000"
+         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000;stroke:#000000;stroke-opacity:1"
          x1="83.27536"
          x2="159.83379"
          y1="79.645988"
@@ -740,7 +740,7 @@
       <line
          class="st0"
          id="line5643"
-         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000"
+         style="stroke-width:0.15660954;stroke-miterlimit:4;stroke-dasharray:none;fill:#000000;stroke:#000000;stroke-opacity:1"
          x1="83.27536"
          x2="159.83379"
          y1="17.554426"
@@ -895,43 +895,43 @@
     </g>
     <text
        id="text5721"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;stroke-width:0.434389"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.434389"
        x="120.18272"
-       y="94.729622">
+       y="95.258789">
       <tspan
          class="st2 st3"
          id="tspan5717"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;stroke-width:0.434389"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.434389"
          x="120.18272"
-         y="94.729622">Convex</tspan>
+         y="95.258789">Convex</tspan>
       <tspan
          class="st2 st3"
          id="tspan5719"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;stroke-width:0.434389"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.434389"
          x="116.83794"
-         y="97.77034">optimization</tspan>
+         y="98.299507">optimization</tspan>
     </text>
     <text
        id="text5727"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;stroke-width:0.434389"
-       x="105.36256"
-       y="108.54016">
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.434389"
+       x="106.81966"
+       y="109.06933">
       <tspan
          class="st2 st3"
          id="tspan5723"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;stroke-width:0.434389"
-         x="105.36256"
-         y="108.54016">Disambiguate</tspan>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.434389"
+         x="106.81966"
+         y="109.06933">Disambiguate</tspan>
       <tspan
          class="st2 st3"
          id="tspan5725"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;stroke-width:0.434389"
-         x="102.79533"
-         y="111.58089">up- vs down-wind</tspan>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.434389"
+         x="104.25243"
+         y="112.11005">up- vs down-wind</tspan>
     </text>
     <g
        id="g5781"
-       transform="matrix(0.43438899,0,0,-0.43438899,91.599893,1.0693683)">
+       transform="matrix(0.43438899,0,0,-0.43438899,91.599893,1.598535)">
       <g
          id="g5779">
         <g
@@ -1049,38 +1049,38 @@
     </g>
     <text
        id="text5791"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;stroke-width:0.434389"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.434389"
        x="153.69992"
-       y="105.47619">
+       y="106.0854">
       <tspan
          class="st2 st3"
          id="tspan5783"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;stroke-width:0.434389"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.434389"
          x="153.69992"
-         y="105.47619">Estimate of the</tspan>
+         y="106.0854">Estimate of the</tspan>
       <tspan
          class="st2 st3"
          id="tspan5785"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;stroke-width:0.434389"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.434389"
          x="153.69992"
-         y="108.51691">mean ambient wind</tspan>
+         y="109.1261">mean ambient wind</tspan>
       <tspan
          class="st2 st3"
          id="tspan5787"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;stroke-width:0.434389"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.434389"
          x="153.69992"
-         y="111.55763">direction for this</tspan>
+         y="112.16683">direction for this</tspan>
       <tspan
          class="st2 st3"
          id="tspan5789"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;stroke-width:0.434389"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.434389"
          x="153.69992"
-         y="114.59836">time window</tspan>
+         y="115.20757">time window</tspan>
     </text>
     <line
        class="st4"
        id="line5793"
-       style="stroke-width:0.434389;fill:#000000"
+       style="stroke-width:0.434389;fill:#000000;stroke:#000000;stroke-opacity:1"
        x1="108.4301"
        x2="142.86845"
        y1="87.669151"
@@ -1088,10 +1088,10 @@
     <g
        id="g5803"
        transform="matrix(0.43438899,0,0,0.43438899,87.366559,1.0693683)"
-       style="fill:#000000">
+       style="fill:#000000;stroke:#000000;stroke-opacity:1">
       <g
          id="g5801"
-         style="fill:#000000">
+         style="fill:#000000;stroke:#000000;stroke-opacity:1">
         <line
            class="st4"
            id="line5795"
@@ -1099,21 +1099,21 @@
            x2="87.550003"
            y1="199.36"
            y2="205.75"
-           style="fill:#000000" />
+           style="fill:#000000;stroke:#000000;stroke-opacity:1" />
         <g
            id="g5799"
-           style="fill:#000000">
+           style="fill:#000000;stroke:#000000;stroke-opacity:1">
           <polygon
              id="polygon5797"
              points="84.96,203.79 87.55,204.89 90.14,203.79 87.55,209.93 "
-             style="fill:#000000" />
+             style="fill:#000000;stroke:#000000;stroke-opacity:1" />
         </g>
       </g>
     </g>
     <line
        class="st4"
        id="line5805"
-       style="stroke-width:0.434389;fill:#000000"
+       style="stroke-width:0.43180001;fill:#000000;stroke:#000000;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none"
        x1="91.328209"
        x2="142.86845"
        y1="100.3533"
@@ -1121,10 +1121,10 @@
     <g
        id="g5815"
        transform="matrix(0.43438899,0,0,0.43438899,79.067575,0.36129933)"
-       style="fill:#000000">
+       style="fill:#000000;stroke:#000000;stroke-opacity:1">
       <g
          id="g5813"
-         style="fill:#000000">
+         style="fill:#000000;stroke:#000000;stroke-opacity:1">
         <line
            class="st4"
            id="line5807"
@@ -1132,46 +1132,46 @@
            x2="87.550003"
            y1="229.69"
            y2="237.47"
-           style="fill:#000000" />
+           style="fill:#000000;stroke:#000000;stroke-opacity:1" />
         <g
            id="g5811"
-           style="fill:#000000">
+           style="fill:#000000;stroke:#000000;stroke-opacity:1">
           <polygon
              id="polygon5809"
              points="87.55,241.65 84.96,235.5 87.55,236.6 90.14,235.5 "
-             style="fill:#000000" />
+             style="fill:#000000;stroke:#000000;stroke-opacity:1" />
         </g>
       </g>
     </g>
     <g
        id="g5825"
-       transform="matrix(0.43438899,0,0,0.43438899,82.717014,1.0693683)"
-       style="fill:#000000">
+       transform="matrix(0.43438899,0,0,0.43438899,82.717014,1.598535)"
+       style="fill:#000000;stroke:#000000;stroke-opacity:1;stroke-width:0.99403994;stroke-miterlimit:4;stroke-dasharray:none">
       <g
          id="g5823"
-         style="fill:#000000">
+         style="fill:#000000;stroke:#000000;stroke-opacity:1;stroke-width:0.99403994;stroke-miterlimit:4;stroke-dasharray:none">
         <line
            class="st4"
            id="line5817"
-           x1="118.59366"
+           x1="112.75267"
            x2="134.30367"
            y1="248.23"
            y2="248.23"
-           style="fill:#000000" />
+           style="fill:#000000;stroke:#000000;stroke-width:0.99403994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
         <g
            id="g5821"
-           style="fill:#000000">
+           style="fill:#000000;stroke:#000000;stroke-opacity:1;stroke-width:0.99403994;stroke-miterlimit:4;stroke-dasharray:none">
           <polygon
              id="polygon5819"
-             points="127.51,248.23 121.37,250.82 122.47,248.23 121.37,245.64 "
+             points="121.37,250.82 122.47,248.23 121.37,245.64 127.51,248.23 "
              transform="translate(10.963676)"
-             style="fill:#000000" />
+             style="fill:#000000;stroke:#000000;stroke-opacity:1;stroke-width:0.99403994;stroke-miterlimit:4;stroke-dasharray:none" />
         </g>
       </g>
     </g>
     <g
        id="g5857"
-       transform="matrix(0.43438899,0,0,-0.43438899,87.090935,1.0693683)">
+       transform="matrix(0.43438899,0,0,-0.43438899,87.090935,1.598535)">
       <g
          id="g5855">
         <g
@@ -1238,11 +1238,11 @@
     </g>
     <g
        id="g5867"
-       transform="matrix(0.43438899,0,0,0.43438899,91.599893,1.0693683)"
-       style="fill:#000000">
+       transform="matrix(0.43438899,0,0,0.43438899,91.599893,1.598535)"
+       style="fill:#000000;stroke:#000000;stroke-opacity:1">
       <g
          id="g5865"
-         style="fill:#000000">
+         style="fill:#000000;stroke:#000000;stroke-opacity:1">
         <line
            class="st4"
            id="line5859"
@@ -1250,24 +1250,24 @@
            x2="113.47"
            y1="215.69"
            y2="215.69"
-           style="fill:#000000" />
+           style="fill:#000000;stroke:#000000;stroke-miterlimit:10;stroke-opacity:1" />
         <g
            id="g5863"
-           style="fill:#000000">
+           style="fill:#000000;stroke:#000000;stroke-opacity:1">
           <polygon
              id="polygon5861"
-             points="111.51,213.1 117.65,215.69 111.51,218.28 112.61,215.69 "
-             style="fill:#000000" />
+             points="117.65,215.69 111.51,218.28 112.61,215.69 111.51,213.1 "
+             style="fill:#000000;stroke:#000000;stroke-opacity:1" />
         </g>
       </g>
     </g>
     <g
        id="g5877"
        transform="matrix(0.43438899,0,0,0.43438899,72.005813,-67.804985)"
-       style="fill:#000000">
+       style="fill:#000000;stroke:#000000;stroke-opacity:1">
       <g
          id="g5875"
-         style="fill:#000000">
+         style="fill:#000000;stroke:#000000;stroke-opacity:1">
         <line
            class="st4"
            id="line5869"
@@ -1275,14 +1275,14 @@
            x2="246.99001"
            y1="190.25999"
            y2="190.25999"
-           style="fill:#000000" />
+           style="fill:#000000;stroke:#000000;stroke-opacity:1" />
         <g
            id="g5873"
-           style="fill:#000000">
+           style="fill:#000000;stroke:#000000;stroke-opacity:1">
           <polygon
              id="polygon5871"
              points="251.17,190.26 245.03,192.85 246.13,190.26 245.03,187.67 "
-             style="fill:#000000" />
+             style="fill:#000000;stroke:#000000;stroke-opacity:1" />
         </g>
       </g>
     </g>
@@ -1678,12 +1678,12 @@
        style="font-style:normal;font-weight:normal;font-size:3.52778006px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
        x="149.61057"
        xml:space="preserve"
-       y="110.02085"><tspan
+       y="110.55002"><tspan
          id="tspan61125"
          sodipodi:role="line"
          style="font-size:3.52778006px;stroke-width:0.26458299"
          x="149.61057"
-         y="110.02085">=</tspan></text>
+         y="110.55002">=</tspan></text>
     <use
        height="100%"
        id="use62969"
@@ -1723,11 +1723,11 @@
        inkscape:connector-curvature="0" />
     <g
        id="g5867-7"
-       style="stroke-linecap:butt;stroke-linejoin:round;fill:#000000"
+       style="stroke-linecap:butt;stroke-linejoin:round;fill:#000000;stroke:#000000;stroke-opacity:1"
        transform="matrix(0.3924635,0,0,0.43438899,20.99431,-44.884818)">
       <g
          id="g5865-3"
-         style="fill:#000000">
+         style="fill:#000000;stroke:#000000;stroke-opacity:1">
         <line
            class="st4"
            id="line5859-0"
@@ -1735,28 +1735,28 @@
            x2="113.47"
            y1="215.69"
            y2="215.69"
-           style="fill:#000000" />
+           style="fill:#000000;stroke:#000000;stroke-opacity:1" />
         <g
            id="g5863-0"
-           style="fill:#000000">
+           style="fill:#000000;stroke:#000000;stroke-opacity:1">
           <polygon
              id="polygon5861-2"
              points="117.65,215.69 111.51,218.28 112.61,215.69 111.51,213.1 "
-             style="fill:#000000" />
+             style="fill:#000000;stroke:#000000;stroke-opacity:1" />
         </g>
       </g>
     </g>
     <text
        id="text5791-7"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.99861002px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;stroke-width:0.434389;stroke-linecap:butt;stroke-linejoin:round"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.434389;stroke-linecap:butt;stroke-linejoin:round"
        transform="rotate(-90)"
-       x="-48.567268"
+       x="-73.522583"
        y="70.038628">
       <tspan
          id="tspan63035"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;text-anchor:middle"
-         x="-48.567268"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+         x="-73.522583"
          y="70.038628">Butterworth smoother, cutoff frequency=</tspan>
     </text>
     <text
@@ -1848,11 +1848,11 @@
     </g>
     <g
        id="g5867-7-3"
-       style="stroke-linecap:butt;stroke-linejoin:round;fill:#000000"
+       style="stroke-linecap:butt;stroke-linejoin:round;fill:#000000;stroke:#000000;stroke-opacity:1"
        transform="matrix(0.3924635,0,0,0.43438899,30.102181,-44.978701)">
       <g
          id="g5865-3-2"
-         style="fill:#000000">
+         style="fill:#000000;stroke:#000000;stroke-opacity:1">
         <line
            class="st4"
            id="line5859-0-1"
@@ -1860,14 +1860,14 @@
            x2="113.47"
            y1="215.69"
            y2="215.69"
-           style="fill:#000000" />
+           style="fill:#000000;stroke:#000000;stroke-opacity:1" />
         <g
            id="g5863-0-7"
-           style="fill:#000000">
+           style="fill:#000000;stroke:#000000;stroke-opacity:1">
           <polygon
              id="polygon5861-2-0"
              points="111.51,218.28 112.61,215.69 111.51,213.1 117.65,215.69 "
-             style="fill:#000000" />
+             style="fill:#000000;stroke:#000000;stroke-opacity:1" />
         </g>
       </g>
     </g>
