@@ -74,7 +74,7 @@ All of the cleaned data and simulation data is provided as hdf files. Raw data i
 
 # Downloading the data
 
-Raw and cleaned experimental data, as well as the simulation results, will be made available as a Data Dryad repository upon formal publication. Download this data and place into the appropriate directories for this repository (which are empty).  
+Raw and cleaned experimental data, as well as the simulation results are available from Data Dryad at: https://doi.org/10.5061/dryad.gb5mkkwrv. (note: data will be made public upon publication). Download this data and place into the appropriate directories for this repository (which are empty).  
 
 # Processing raw data
 
