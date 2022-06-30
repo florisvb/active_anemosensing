@@ -4,6 +4,20 @@
 
 This repository provides all of the code used to analyze the data, run the simulations, and generate the figures, described in the manuscript titled "Active Anemosensing Hypothesis: How Flying Insects Could Estimate Ambient Wind Direction Through Sensory Integration & Active Movement". Authors: Floris van Breugel, Renan Jewell, and Jaleesa Houle. 
 
+The manuscript is available as a preprint at: https://biorxiv.org/cgi/content/short/2022.03.31.486300v1.
+
+    @article {van Breugel2022.03.31.486300,
+        author = {van Breugel, Floris and Jewell, Renan and Houle, Jaleesa},
+        title = {Active Anemosensing Hypothesis: How Flying Insects Could Estimate Ambient Wind Direction Through Sensory Integration \& Active Movement},
+        elocation-id = {2022.03.31.486300},
+        year = {2022},
+        doi = {10.1101/2022.03.31.486300},
+        publisher = {Cold Spring Harbor Laboratory},
+        URL = {https://www.biorxiv.org/content/early/2022/04/01/2022.03.31.486300},
+        eprint = {https://www.biorxiv.org/content/early/2022/04/01/2022.03.31.486300.full.pdf},
+        journal = {bioRxiv}
+    }
+
 
 # Directory structure
 
@@ -74,7 +88,7 @@ All of the cleaned data and simulation data is provided as hdf files. Raw data i
 
 # Downloading the data
 
-Raw and cleaned experimental data, as well as the simulation results, will be made available as a Data Dryad repository upon formal publication. Download this data and place into the appropriate directories for this repository (which are empty).  
+Raw and cleaned experimental data, as well as the simulation results are available from Data Dryad at: https://doi.org/10.5061/dryad.gb5mkkwrv. (note: data will be made public upon publication). Download this data and place into the appropriate directories for this repository (which are empty).  
 
 # Processing raw data
 
