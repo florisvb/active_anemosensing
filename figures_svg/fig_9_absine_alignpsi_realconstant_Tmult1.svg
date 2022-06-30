@@ -11,10 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    height="11.692913in"
    id="svg8"
-   inkscape:export-filename="/home/caveman/Sync/LAB_Private/PAPERS/2021_simulation_botfly_wind_estimation/figures/new_figures/fig_9_noise_and_turn_angle_constant_psi.png"
+   inkscape:export-filename="/Users/florisvb/Sync/LAB_Private/PAPERS/2021_simulation_botfly_PAPER/figures_png/fig_9_absine_alignpsi_realconstant_Tmult1.png"
    inkscape:export-xdpi="600"
    inkscape:export-ydpi="600"
-   inkscape:version="0.92.5 (0.92.5+68)"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
    sodipodi:docname="fig_9_absine_alignpsi_realconstant_Tmult1.svg"
    version="1.1"
    viewBox="0 0 210 297"
@@ -279,11 +279,11 @@
      inkscape:document-units="mm"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:window-height="2127"
+     inkscape:window-height="1067"
      inkscape:window-maximized="1"
-     inkscape:window-width="3759"
-     inkscape:window-x="81"
-     inkscape:window-y="33"
+     inkscape:window-width="1792"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
      inkscape:zoom="7.2934234"
      pagecolor="#ffffff"
      showgrid="false"
@@ -2073,12 +2073,12 @@
     <figurefirst:targetlayer
        figurefirst:name="colorbar" />
     <metadata
-       id="metadata697">
+       id="metadata1248">
       <rdf:RDF>
         <cc:Work>
           <dc:type
              rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-          <dc:date>2022-03-30T10:51:51.954552</dc:date>
+          <dc:date>2022-06-24T12:09:13.939498</dc:date>
           <dc:format>image/svg+xml</dc:format>
           <dc:creator>
             <cc:Agent>
@@ -2089,35 +2089,35 @@
       </rdf:RDF>
     </metadata>
     <defs
-       id="defs701">
+       id="defs1252">
       <style
          type="text/css"
-         id="style699">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+         id="style1250">*{stroke-linejoin: round; stroke-linecap: butt}</style>
     </defs>
     <g
-       id="g817">
+       id="g1371">
       <g
-         id="g705">
+         id="g1256">
         <path
            d="M 0 841.889736  L 595.275581 841.889736  L 595.275581 0  L 0 0  L 0 841.889736  z "
            style="fill: none"
-           id="path703" />
+           id="path1254" />
       </g>
       <g
-         id="g815">
+         id="g1369">
         <g
-           id="g709">
+           id="g1260">
           <path
              d="M 293.058808 369.110897  L 392.484006 369.110897  L 392.484006 362.832165  L 293.058808 362.832165  L 293.058808 369.110897  z "
              style="fill: none"
-             id="path707" />
+             id="path1258" />
         </g>
         <g
-           clip-path="url(#p6b8fb9e00c)"
-           id="g712">
+           clip-path="url(#pa50c211861)"
+           id="g1263">
           <image
              xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZ8AAAAbCAYAAACjtILuAAABw0lEQVR4nO3VQW7jMAyF4UfqanOEuf9RzC4qS5SltFOg4Czyf5sQpEg5gQPaH/sbkiQzfX66zGesHttdd59n3Wft0JNnbnPMRr/M0kzbc2aKbebXPWEm9fHLnNGjQ8+cNc6Z1vqjP8w+zzx6oodym/EyR+lsuktSuL6eucT7zPO5wz3PnkP/T2e+fs7Xuf33ONT1s541F//0HDIp8j3bd4+X989cbDNnPbaeMXfrSTlbz9mjbo/+XJ+vSSz9Zo+/vcWSm/Gc48+cRfrrxVZ3i3G/51yKR16xzTnV3a6lPs4p91ySpJZ659lZO81sura7m1K997tiie/amK9Y4vuePP+O55xrPPM8d43+Zpf80dMU59yIr+X+u97S7zXicU/OqedSLKn1F2fmTN5zTSbvlXnO5f1taOZLLwAAZVg+AIByLB8AQDmWDwCgHMsHAFCO5QMAKMfyAQCUe+/lY/b9GQDAr3vv5RPx/RkAwK977+UDAPgvWD4AgHIsHwBAOZYPAKAcywcAUI7lAwAox/IBAJRj+QAAyrF8AADlWD4AgHIsHwBAOZYPAKAcywcAUI7lAwAox/IBAJRj+QAAyrF8AADlPgAULYs9w/Y+jwAAAABJRU5ErkJggg=="
-             id="image2ab410fa50"
+             id="imagef93361b665"
              transform="scale(1 -1)translate(0 -6.48)"
              x="293.058808"
              y="-362.630897"
@@ -2125,26 +2125,26 @@
              height="6.48" />
         </g>
         <g
-           id="g795">
+           id="g1349">
           <g
              id="xtick_1">
             <g
                id="line2d_1">
               <defs
-                 id="defs715">
+                 id="defs1266">
                 <path
-                   id="m649a931003"
+                   id="md4ee04849e"
                    d="M 0 0  L 0 -2.5  "
                    style="stroke: #000000; stroke-width: 0.5" />
               </defs>
               <g
-                 id="g719">
+                 id="g1270">
                 <use
-                   xlink:href="#m649a931003"
+                   xlink:href="#md4ee04849e"
                    x="293.058808"
                    y="374.110897"
                    style="stroke: #000000; stroke-width: 0.5"
-                   id="use717" />
+                   id="use1268" />
               </g>
             </g>
             <g
@@ -2152,9 +2152,9 @@
               <!-- $0$ -->
               <g
                  transform="translate(291.308808 382.929803)scale(0.07 -0.07)"
-                 id="g727">
+                 id="g1278">
                 <defs
-                   id="defs723">
+                   id="defs1274">
                   <path
                      id="Cmr10-30"
                      d="M 1600 -141  Q 816 -141 533 504  Q 250 1150 250 2041  Q 250 2597 351 3087  Q 453 3578 754 3920  Q 1056 4263 1600 4263  Q 2022 4263 2290 4056  Q 2559 3850 2700 3523  Q 2841 3197 2892 2823  Q 2944 2450 2944 2041  Q 2944 1491 2842 1011  Q 2741 531 2444 195  Q 2147 -141 1600 -141  z M 1600 25  Q 1956 25 2131 390  Q 2306 756 2347 1200  Q 2388 1644 2388 2144  Q 2388 2625 2347 3031  Q 2306 3438 2132 3767  Q 1959 4097 1600 4097  Q 1238 4097 1063 3765  Q 888 3434 847 3029  Q 806 2625 806 2144  Q 806 1788 823 1472  Q 841 1156 916 820  Q 991 484 1158 254  Q 1325 25 1600 25  z "
@@ -2163,7 +2163,7 @@
                 <use
                    xlink:href="#Cmr10-30"
                    transform="translate(0 0.390625)"
-                   id="use725" />
+                   id="use1276" />
               </g>
             </g>
           </g>
@@ -2172,13 +2172,13 @@
             <g
                id="line2d_2">
               <g
-                 id="g733">
+                 id="g1284">
                 <use
-                   xlink:href="#m649a931003"
+                   xlink:href="#md4ee04849e"
                    x="342.771407"
                    y="374.110897"
                    style="stroke: #000000; stroke-width: 0.5"
-                   id="use731" />
+                   id="use1282" />
               </g>
             </g>
           </g>
@@ -2187,23 +2187,27 @@
             <g
                id="line2d_3">
               <g
-                 id="g739">
+                 id="g1290">
                 <use
-                   xlink:href="#m649a931003"
+                   xlink:href="#md4ee04849e"
                    x="392.484006"
                    y="374.110897"
                    style="stroke: #000000; stroke-width: 0.5"
-                   id="use737" />
+                   id="use1288" />
               </g>
             </g>
             <g
                id="text_2">
-              <!-- $\pi/4$ -->
+              <!-- $\geq\pi/4$ -->
               <g
-                 transform="translate(386.989006 382.860897)scale(0.07 -0.07)"
-                 id="g753">
+                 transform="translate(383.034006 382.860897)scale(0.07 -0.07)"
+                 id="g1307">
                 <defs
-                   id="defs745">
+                   id="defs1297">
+                  <path
+                     id="Cmsy10-b8"
+                     d="M 653 -878  Q 600 -878 565 -837  Q 531 -797 531 -750  Q 531 -697 565 -659  Q 600 -622 653 -622  L 4325 -622  Q 4375 -622 4408 -659  Q 4441 -697 4441 -750  Q 4441 -797 4408 -837  Q 4375 -878 4325 -878  L 653 -878  z M 531 494  Q 531 572 616 616  L 4013 2222  L 594 3834  Q 531 3863 531 3944  Q 531 3991 568 4031  Q 606 4072 659 4072  Q 691 4072 709 4063  L 4384 2328  Q 4441 2300 4441 2222  Q 4441 2144 4366 2100  L 709 378  Q 691 366 659 366  Q 606 366 568 403  Q 531 441 531 494  z "
+                     transform="scale(0.015625)" />
                   <path
                      id="Cmmi10-bc"
                      d="M 647 109  Q 647 144 672 213  Q 850 584 1004 942  Q 1159 1300 1282 1639  Q 1406 1978 1509 2363  L 1100 2363  Q 866 2363 662 2216  Q 459 2069 325 1844  Q 313 1819 288 1819  L 213 1819  Q 153 1819 153 1881  Q 153 1894 166 1919  Q 375 2275 614 2517  Q 853 2759 1153 2759  L 3475 2759  Q 3541 2759 3587 2715  Q 3634 2672 3634 2597  Q 3634 2503 3567 2433  Q 3500 2363 3406 2363  L 2591 2363  Q 2488 1859 2478 1381  Q 2478 766 2694 269  Q 2713 231 2713 191  Q 2713 122 2672 62  Q 2631 3 2567 -34  Q 2503 -72 2431 -72  Q 2263 -72 2200 203  Q 2138 478 2138 738  Q 2138 1103 2200 1442  Q 2263 1781 2400 2363  L 1703 2363  Q 1197 313 1094 103  Q 1003 -72 844 -72  Q 766 -72 706 -20  Q 647 31 647 109  z "
@@ -2218,16 +2222,21 @@
                      transform="scale(0.015625)" />
                 </defs>
                 <use
+                   xlink:href="#Cmsy10-b8"
+                   transform="translate(17.558594 0)"
+                   id="use1299" />
+                <use
                    xlink:href="#Cmmi10-bc"
-                   id="use747" />
+                   transform="translate(112.802734 0)"
+                   id="use1301" />
                 <use
                    xlink:href="#Cmmi10-3d"
-                   transform="translate(56.982422 0)"
-                   id="use749" />
+                   transform="translate(169.785156 0)"
+                   id="use1303" />
                 <use
                    xlink:href="#Cmr10-34"
-                   transform="translate(106.982422 0)"
-                   id="use751" />
+                   transform="translate(219.785156 0)"
+                   id="use1305" />
               </g>
             </g>
           </g>
@@ -2236,9 +2245,9 @@
             <!-- Median error -->
             <g
                transform="translate(319.105391 384.929803)scale(0.07 -0.07)"
-               id="g792">
+               id="g1346">
               <defs
-                 id="defs766">
+                 id="defs1320">
                 <path
                    id="DejaVuSerif-4d"
                    d="M 353 0  L 353 331  L 947 331  L 947 4331  L 319 4331  L 319 4666  L 1678 4666  L 3316 1344  L 4953 4666  L 6228 4666  L 6228 4331  L 5606 4331  L 5606 331  L 6203 331  L 6203 0  L 4378 0  L 4378 331  L 4972 331  L 4972 3938  L 3372 684  L 2931 684  L 1331 3938  L 1331 331  L 1925 331  L 1925 0  L 353 0  z "
@@ -2277,96 +2286,96 @@
               </defs>
               <use
                  xlink:href="#DejaVuSerif-4d"
-                 id="use768" />
+                 id="use1322" />
               <use
                  xlink:href="#DejaVuSerif-65"
                  x="102.392578"
-                 id="use770" />
+                 id="use1324" />
               <use
                  xlink:href="#DejaVuSerif-64"
                  x="161.572266"
-                 id="use772" />
+                 id="use1326" />
               <use
                  xlink:href="#DejaVuSerif-69"
                  x="225.585938"
-                 id="use774" />
+                 id="use1328" />
               <use
                  xlink:href="#DejaVuSerif-61"
                  x="257.568359"
-                 id="use776" />
+                 id="use1330" />
               <use
                  xlink:href="#DejaVuSerif-6e"
                  x="317.1875"
-                 id="use778" />
+                 id="use1332" />
               <use
                  xlink:href="#DejaVuSerif-20"
                  x="381.591797"
-                 id="use780" />
+                 id="use1334" />
               <use
                  xlink:href="#DejaVuSerif-65"
                  x="413.378906"
-                 id="use782" />
+                 id="use1336" />
               <use
                  xlink:href="#DejaVuSerif-72"
                  x="472.558594"
-                 id="use784" />
+                 id="use1338" />
               <use
                  xlink:href="#DejaVuSerif-72"
                  x="520.361328"
-                 id="use786" />
+                 id="use1340" />
               <use
                  xlink:href="#DejaVuSerif-6f"
                  x="568.164062"
-                 id="use788" />
+                 id="use1342" />
               <use
                  xlink:href="#DejaVuSerif-72"
                  x="628.369141"
-                 id="use790" />
+                 id="use1344" />
             </g>
           </g>
         </g>
         <g
-           id="g797" />
+           id="g1351" />
         <g
-           id="g801">
+           id="g1355">
           <path
              d="M 293.058808 369.110897  L 293.058808 361.116568  "
              style="fill: none"
-             id="path799" />
+             id="path1353" />
         </g>
         <g
-           id="g805">
+           id="g1359">
           <path
              d="M 392.484006 369.110897  L 392.484006 361.116568  "
              style="fill: none"
-             id="path803" />
+             id="path1357" />
         </g>
         <g
-           id="g809">
+           id="g1363">
           <path
              d="M 293.058808 374.110897  L 392.484006 374.110897  "
              style="fill: none; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter; stroke-linecap: square"
-             id="path807" />
+             id="path1361" />
         </g>
         <g
-           id="g813">
+           id="g1367">
           <path
              d="M 293.058808 362.832165  L 392.484006 362.832165  "
              style="fill: none"
-             id="path811" />
+             id="path1365" />
         </g>
       </g>
     </g>
     <defs
-       id="defs822">
+       id="defs1376">
       <clipPath
-         id="p6b8fb9e00c">
+         id="pa50c211861">
         <rect
            x="293.058808"
            y="362.832165"
            width="99.425197"
            height="6.278732"
-           id="rect819" />
+           id="rect1373" />
       </clipPath>
     </defs>
   </g>
@@ -3307,7 +3316,7 @@
              id="path1257" />
         </g>
         <g
-           id="g1263">
+           id="g1612">
           <path
              d="M 29.21882 182.380331  L 213.167965 182.380331  "
              style="fill: none"
@@ -3478,7 +3487,7 @@
             </g>
           </g>
           <g
-             id="g1355">
+             id="g1662">
             <g
                id="g1341">
               <g
@@ -3496,7 +3505,7 @@
               <!-- $10$ -->
               <g
                  transform="translate(117.693392 352.775959)scale(0.07 -0.07)"
-                 id="g1351">
+                 id="g1659">
                 <defs
                    id="defs1345">
                   <path
@@ -3520,7 +3529,7 @@
             <g
                id="g1361">
               <g
-                 id="g1359">
+                 id="g1665">
                 <use
                    xlink:href="#m697072d852"
                    x="142.622548"
@@ -3534,7 +3543,7 @@
               <!-- $50$ -->
               <g
                  transform="translate(139.122548 352.775959)scale(0.07 -0.07)"
-                 id="g1371">
+                 id="g1672">
                 <defs
                    id="defs1365">
                   <path
@@ -4158,7 +4167,7 @@
              id="path1656" />
         </g>
         <g
-           id="g1662">
+           id="g1833">
           <path
              d="M 29.21882 267.707199  L 213.167965 267.707199  "
              style="fill: none"
@@ -4541,7 +4550,7 @@
              id="path1827" />
         </g>
         <g
-           id="g1833">
+           id="g1924">
           <path
              d="M 181.082193 253.630185  L 181.082193 182.380331  "
              style="fill: none"
@@ -7702,13 +7711,13 @@
      style="display:inline;stroke-linecap:butt;stroke-linejoin:round">
     <text
        id="text12824-8"
-       style="font-style:normal;font-weight:normal;font-size:2.46944444px;line-height:1.25;font-family:'Times New Roman';display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round;-inkscape-font-specification:'Times New Roman, Normal';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round"
        x="174.87621"
        xml:space="preserve"
        y="5.5251188"><tspan
          id="tspan12822-0"
          sodipodi:role="line"
-         style="font-size:2.46944444px;fill:#ff0000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round;-inkscape-font-specification:'Times New Roman, Normal';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round"
          x="174.87621"
          y="5.5251188">Estimated wind direction</tspan></text>
     <text
@@ -7879,13 +7888,13 @@
          y="7.4599199">A</tspan></text>
     <text
        id="text12824"
-       style="font-style:normal;font-weight:normal;font-size:2.46944444px;line-height:1.25;font-family:'Times New Roman';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round;-inkscape-font-specification:'Times New Roman, Normal';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round"
        x="175.08292"
        xml:space="preserve"
        y="3.4240315"><tspan
          id="tspan12822"
          sodipodi:role="line"
-         style="font-size:2.46944444px;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round;-inkscape-font-specification:'Times New Roman, Normal';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round"
          x="175.08292"
          y="3.4240315">True wind direction</tspan></text>
     <g

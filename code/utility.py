@@ -78,7 +78,7 @@ def plot_wind_quivers(df, ax=None, res=3, wind_quiver_index=0, headwidth=7, alph
     q = ax.quiver(X[i:-1:res, i:-1:res], Y[i:-1:res, i:-1:res], V, U, alpha=alpha, headwidth=headwidth)
 
 def plot_trajec(df, ax=None, size_radius=5, nskip = 190, 
-                show_wind_quivers=True, wind_quiver_index=0, wind_quiver_res=3, wind_quiver_headwidth=7, wind_quiver_alpha=0.5):
+                show_wind_quivers=True, wind_quiver_index=0, wind_quiver_res=3, wind_quiver_headwidth=7, wind_quiver_alpha=0.5, colormap='bone_r'):
     if ax is None:
         fig = plt.figure()
         ax = fig.add_subplot(111)
@@ -87,7 +87,7 @@ def plot_trajec(df, ax=None, size_radius=5, nskip = 190,
         plot_wind_quivers(df, ax, wind_quiver_index=wind_quiver_index, res=wind_quiver_res, headwidth=wind_quiver_headwidth, alpha=wind_quiver_alpha)
     
     fpl.colorline_with_heading(ax, df['xpos'].values, df['ypos'].values, df['t'].values, df['phi'].values, 
-                                    nskip=nskip, size_radius=size_radius, deg=False, colormap='bone_r', center_point_size=0.0001,
+                                    nskip=nskip, size_radius=size_radius, deg=False, colormap=colormap, center_point_size=0.0001,
                                     colornorm=[0.05*df['t'].values[-1],df['t'].values[-1]], show_centers=False)
 
     ax.set_aspect('equal')

@@ -11,10 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    height="11.692913in"
    id="svg8"
-   inkscape:export-filename="/home/caveman/Sync/LAB_Private/PAPERS/2021_simulation_botfly_wind_estimation/figures/new_figures/fig_8_time_constants.png"
+   inkscape:export-filename="/Users/florisvb/Sync/LAB_Private/PAPERS/2021_simulation_botfly_PAPER/figures_png/fig_8_time_constants.png"
    inkscape:export-xdpi="600"
    inkscape:export-ydpi="600"
-   inkscape:version="0.92.5 (0.92.5+68)"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
    sodipodi:docname="fig_8_time_constants.svg"
    version="1.1"
    viewBox="0 0 210 297"
@@ -195,17 +195,17 @@
      borderopacity="1.0"
      id="base"
      inkscape:current-layer="layer2"
-     inkscape:cx="129.36771"
-     inkscape:cy="906.92468"
+     inkscape:cx="403.00355"
+     inkscape:cy="99.307859"
      inkscape:document-rotation="0"
      inkscape:document-units="mm"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:window-height="2127"
+     inkscape:window-height="1067"
      inkscape:window-maximized="1"
-     inkscape:window-width="3759"
-     inkscape:window-x="81"
-     inkscape:window-y="33"
+     inkscape:window-width="1792"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
      inkscape:zoom="3.4377068"
      pagecolor="#ffffff"
      showgrid="false"
@@ -304,12 +304,12 @@
     <figurefirst:targetlayer
        figurefirst:name="colorbar" />
     <metadata
-       id="metadata4112">
+       id="metadata17988">
       <rdf:RDF>
         <cc:Work>
           <dc:type
              rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-          <dc:date>2022-03-30T10:44:39.978612</dc:date>
+          <dc:date>2022-06-24T12:10:13.507375</dc:date>
           <dc:format>image/svg+xml</dc:format>
           <dc:creator>
             <cc:Agent>
@@ -320,10 +320,10 @@
       </rdf:RDF>
     </metadata>
     <defs
-       id="defs4116">
+       id="defs17992">
       <style
          type="text/css"
-         id="style4114">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+         id="style17990">*{stroke-linejoin: round; stroke-linecap: butt}</style>
     </defs>
     <g
        id="figure_1">
@@ -332,7 +332,7 @@
         <path
            d="M 0 841.889736  L 595.275581 841.889736  L 595.275581 0  L 0 0  L 0 841.889736  z "
            style="fill: none"
-           id="path4118" />
+           id="path17994" />
       </g>
       <g
          id="axes_1">
@@ -341,14 +341,14 @@
           <path
              d="M 234.855214 95.217048  L 243.191867 95.217048  L 243.191867 13.755003  L 234.855214 13.755003  L 234.855214 95.217048  z "
              style="fill: none"
-             id="path4121" />
+             id="path17997" />
         </g>
         <g
-           clip-path="url(#p927c170714)"
-           id="g4125">
+           clip-path="url(#p80d2d83981)"
+           id="g18001">
           <image
              xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACMAAAFUCAYAAACuiYWUAAAC2ElEQVR4nO3cwXHkMBQD0S+JoTkE5x+K5dtoDsKZ74COAAU0SXlr7ePn+L0H4dwd4Js1x7E7w4c1h1POOk6nGaeW0WYaaKZ1QKfJ2Whm1pxOHuzSg5pxkgx2mqx7RrqBnSTjzUSFcZZykozmjHXpQWE0Z5w81ExYGOhoO8IMN1PDvGM5c0OniZqJCmM5IzVDPQdUM3UmsW4pjDQUFEVzhgojCYw5A8WxnJHCQCPNrNspBvue6T0TWOMUYx1t6jRpzjjVWA9l75mAdc9IM1HNWM5IN7D2PbM7woPlDPU2STP1nklQzfRtSljO3FAcaqYKnICM6duUoZqxnOnHVYAS2HKmMwWoZixnsJmcNFQzljPSaaJmopqxnOlMAaqZOpOoMwnLmc4UoD6uLGeomagw0mmqMwlqJqqZOpOoMwnLmc4UoMLUmQQ1E9UM5QwVps4kqGbqTKLOJOpMQnOG+UuZmDPYTLsjPFBh6kyCmokKgzmzO8EX1ExUGMwZqBnqE6LOJDRndkd4oMLUmUTvmYTljNSMFeaGBK4zCSoMNRMVps9BggpTZxLUTFSYOpNY0H/ttJrRnNkd4WEd0ExaM7sjPGgCQ85AK1mnqc4kqKNdZxKdKUGFqTMJaiYqDObM7gRfrBOaqc4kqGYW9JcyrWYsZ3q0A1QzljPQybZmosJgzkDNUDNRYSxnznGaqcAJzBmoGSwMdJo0Z/52Z/iAOQOF0ZxxmqGONtYMdLQtgS9qpgr8juWMdJoqcKLOJKijva5xmtGcgWaiwtSZADYTden1bXqnMyWoZixnqO+ZS3JGasZypjMF+j2TwL5noJn6NiXWac1UgV/BnIFOk/VQ9p4JaPeMFAYSuM4k6kwCc8aaiQrjOEPNZAlMzUSFkX68rTMJ7R+lnTB1JrGkatYF/bKKVIw20+4EX6wL+oVtaSXOGWemddaZd7CZoHJ6zySsmU5J4OtwmnGSzMw/GSiNqRBb+MgAAAAASUVORK5CYII="
-             id="image41b1292046"
+             id="image72e1070b23"
              transform="scale(1 -1)translate(0 -81.6)"
              x="234.855214"
              y="-13.617048"
@@ -364,20 +364,20 @@
             <g
                id="line2d_1">
               <defs
-                 id="defs4129">
+                 id="defs18005">
                 <path
-                   id="mf20af84778"
+                   id="ma69d36c0b7"
                    d="M 0 0  L -2.5 0  "
                    style="stroke: #000000; stroke-width: 0.5" />
               </defs>
               <g
-                 id="g4133">
+                 id="g18009">
                 <use
-                   xlink:href="#mf20af84778"
+                   xlink:href="#ma69d36c0b7"
                    x="247.191867"
                    y="95.217048"
                    style="stroke: #000000; stroke-width: 0.5"
-                   id="use4131" />
+                   id="use18007" />
               </g>
             </g>
             <g
@@ -385,9 +385,9 @@
               <!-- $0$ -->
               <g
                  transform="translate(250.691867 97.876501)scale(0.07 -0.07)"
-                 id="g4141">
+                 id="g18017">
                 <defs
-                   id="defs4137">
+                   id="defs18013">
                   <path
                      id="Cmr10-30"
                      d="M 1600 -141  Q 816 -141 533 504  Q 250 1150 250 2041  Q 250 2597 351 3087  Q 453 3578 754 3920  Q 1056 4263 1600 4263  Q 2022 4263 2290 4056  Q 2559 3850 2700 3523  Q 2841 3197 2892 2823  Q 2944 2450 2944 2041  Q 2944 1491 2842 1011  Q 2741 531 2444 195  Q 2147 -141 1600 -141  z M 1600 25  Q 1956 25 2131 390  Q 2306 756 2347 1200  Q 2388 1644 2388 2144  Q 2388 2625 2347 3031  Q 2306 3438 2132 3767  Q 1959 4097 1600 4097  Q 1238 4097 1063 3765  Q 888 3434 847 3029  Q 806 2625 806 2144  Q 806 1788 823 1472  Q 841 1156 916 820  Q 991 484 1158 254  Q 1325 25 1600 25  z "
@@ -396,7 +396,7 @@
                 <use
                    xlink:href="#Cmr10-30"
                    transform="translate(0 0.390625)"
-                   id="use4139" />
+                   id="use18015" />
               </g>
             </g>
           </g>
@@ -405,13 +405,13 @@
             <g
                id="line2d_2">
               <g
-                 id="g4147">
+                 id="g18023">
                 <use
-                   xlink:href="#mf20af84778"
+                   xlink:href="#ma69d36c0b7"
                    x="247.191867"
                    y="54.486026"
                    style="stroke: #000000; stroke-width: 0.5"
-                   id="use4145" />
+                   id="use18021" />
               </g>
             </g>
           </g>
@@ -420,23 +420,27 @@
             <g
                id="line2d_3">
               <g
-                 id="g4153">
+                 id="g18029">
                 <use
-                   xlink:href="#mf20af84778"
+                   xlink:href="#ma69d36c0b7"
                    x="247.191867"
                    y="13.755003"
                    style="stroke: #000000; stroke-width: 0.5"
-                   id="use4151" />
+                   id="use18027" />
               </g>
             </g>
             <g
                id="text_2">
-              <!-- $\pi/4$ -->
+              <!-- $\geq\pi/4$ -->
               <g
                  transform="translate(250.691867 16.380003)scale(0.07 -0.07)"
-                 id="g4167">
+                 id="g18046">
                 <defs
-                   id="defs4159">
+                   id="defs18036">
+                  <path
+                     id="Cmsy10-b8"
+                     d="M 653 -878  Q 600 -878 565 -837  Q 531 -797 531 -750  Q 531 -697 565 -659  Q 600 -622 653 -622  L 4325 -622  Q 4375 -622 4408 -659  Q 4441 -697 4441 -750  Q 4441 -797 4408 -837  Q 4375 -878 4325 -878  L 653 -878  z M 531 494  Q 531 572 616 616  L 4013 2222  L 594 3834  Q 531 3863 531 3944  Q 531 3991 568 4031  Q 606 4072 659 4072  Q 691 4072 709 4063  L 4384 2328  Q 4441 2300 4441 2222  Q 4441 2144 4366 2100  L 709 378  Q 691 366 659 366  Q 606 366 568 403  Q 531 441 531 494  z "
+                     transform="scale(0.015625)" />
                   <path
                      id="Cmmi10-bc"
                      d="M 647 109  Q 647 144 672 213  Q 850 584 1004 942  Q 1159 1300 1282 1639  Q 1406 1978 1509 2363  L 1100 2363  Q 866 2363 662 2216  Q 459 2069 325 1844  Q 313 1819 288 1819  L 213 1819  Q 153 1819 153 1881  Q 153 1894 166 1919  Q 375 2275 614 2517  Q 853 2759 1153 2759  L 3475 2759  Q 3541 2759 3587 2715  Q 3634 2672 3634 2597  Q 3634 2503 3567 2433  Q 3500 2363 3406 2363  L 2591 2363  Q 2488 1859 2478 1381  Q 2478 766 2694 269  Q 2713 231 2713 191  Q 2713 122 2672 62  Q 2631 3 2567 -34  Q 2503 -72 2431 -72  Q 2263 -72 2200 203  Q 2138 478 2138 738  Q 2138 1103 2200 1442  Q 2263 1781 2400 2363  L 1703 2363  Q 1197 313 1094 103  Q 1003 -72 844 -72  Q 766 -72 706 -20  Q 647 31 647 109  z "
@@ -451,16 +455,21 @@
                      transform="scale(0.015625)" />
                 </defs>
                 <use
+                   xlink:href="#Cmsy10-b8"
+                   transform="translate(17.558594 0)"
+                   id="use18038" />
+                <use
                    xlink:href="#Cmmi10-bc"
-                   id="use4161" />
+                   transform="translate(112.802734 0)"
+                   id="use18040" />
                 <use
                    xlink:href="#Cmmi10-3d"
-                   transform="translate(56.982422 0)"
-                   id="use4163" />
+                   transform="translate(169.785156 0)"
+                   id="use18042" />
                 <use
                    xlink:href="#Cmr10-34"
-                   transform="translate(106.982422 0)"
-                   id="use4165" />
+                   transform="translate(219.785156 0)"
+                   id="use18044" />
               </g>
             </g>
           </g>
@@ -469,9 +478,9 @@
             <!-- Median error -->
             <g
                transform="translate(253.310996 30.82001)rotate(-270)scale(0.07 -0.07)"
-               id="g4206">
+               id="g18085">
               <defs
-                 id="defs4180">
+                 id="defs18059">
                 <path
                    id="DejaVuSerif-4d"
                    d="M 353 0  L 353 331  L 947 331  L 947 4331  L 319 4331  L 319 4666  L 1678 4666  L 3316 1344  L 4953 4666  L 6228 4666  L 6228 4331  L 5606 4331  L 5606 331  L 6203 331  L 6203 0  L 4378 0  L 4378 331  L 4972 331  L 4972 3938  L 3372 684  L 2931 684  L 1331 3938  L 1331 331  L 1925 331  L 1925 0  L 353 0  z "
@@ -510,51 +519,51 @@
               </defs>
               <use
                  xlink:href="#DejaVuSerif-4d"
-                 id="use4182" />
+                 id="use18061" />
               <use
                  xlink:href="#DejaVuSerif-65"
                  x="102.392578"
-                 id="use4184" />
+                 id="use18063" />
               <use
                  xlink:href="#DejaVuSerif-64"
                  x="161.572266"
-                 id="use4186" />
+                 id="use18065" />
               <use
                  xlink:href="#DejaVuSerif-69"
                  x="225.585938"
-                 id="use4188" />
+                 id="use18067" />
               <use
                  xlink:href="#DejaVuSerif-61"
                  x="257.568359"
-                 id="use4190" />
+                 id="use18069" />
               <use
                  xlink:href="#DejaVuSerif-6e"
                  x="317.1875"
-                 id="use4192" />
+                 id="use18071" />
               <use
                  xlink:href="#DejaVuSerif-20"
                  x="381.591797"
-                 id="use4194" />
+                 id="use18073" />
               <use
                  xlink:href="#DejaVuSerif-65"
                  x="413.378906"
-                 id="use4196" />
+                 id="use18075" />
               <use
                  xlink:href="#DejaVuSerif-72"
                  x="472.558594"
-                 id="use4198" />
+                 id="use18077" />
               <use
                  xlink:href="#DejaVuSerif-72"
                  x="520.361328"
-                 id="use4200" />
+                 id="use18079" />
               <use
                  xlink:href="#DejaVuSerif-6f"
                  x="568.164062"
-                 id="use4202" />
+                 id="use18081" />
               <use
                  xlink:href="#DejaVuSerif-72"
                  x="628.369141"
-                 id="use4204" />
+                 id="use18083" />
             </g>
           </g>
         </g>
@@ -563,41 +572,41 @@
           <path
              d="M 234.855214 95.217048  L 234.855214 13.755003  "
              style="fill: none"
-             id="path4210" />
+             id="path18089" />
         </g>
         <g
            id="patch_4">
           <path
              d="M 247.191867 95.217048  L 247.191867 13.755003  "
              style="fill: none; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter; stroke-linecap: square"
-             id="path4213" />
+             id="path18092" />
         </g>
         <g
            id="patch_5">
           <path
              d="M 234.855214 95.217048  L 245.46977 95.217048  "
              style="fill: none"
-             id="path4216" />
+             id="path18095" />
         </g>
         <g
            id="patch_6">
           <path
              d="M 234.855214 13.755003  L 245.46977 13.755003  "
              style="fill: none"
-             id="path4219" />
+             id="path18098" />
         </g>
       </g>
     </g>
     <defs
-       id="defs4227">
+       id="defs18106">
       <clipPath
-         id="p927c170714">
+         id="p80d2d83981">
         <rect
            x="234.855214"
            y="13.755003"
            width="8.336653"
            height="81.462045"
-           id="rect4224" />
+           id="rect18103" />
       </clipPath>
     </defs>
   </g>
@@ -3809,11 +3818,11 @@
              y="101.87533"
              xml:space="preserve"
              x="134.6125"
-             style="font-style:normal;font-weight:normal;font-size:2.11666989px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              id="text46018-9"><tspan
                y="101.87533"
                x="134.6125"
-               style="stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:round"
+               style="stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:round"
                sodipodi:role="line"
                id="tspan46016-6"> &lt; 1 turn / </tspan></text>
           <use
@@ -3837,11 +3846,11 @@
                y="101.87533"
                xml:space="preserve"
                x="134.6125"
-               style="font-style:normal;font-weight:normal;font-size:2.11666989px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                id="text46018-9-0"><tspan
                  y="101.87533"
                  x="134.6125"
-                 style="stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:round"
+                 style="stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:round"
                  sodipodi:role="line"
                  id="tspan46016-6-7"> &gt; 1 turn / </tspan></text>
             <use
@@ -4149,35 +4158,35 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="4.3177133"
        y="4.2248769"
        id="text25069"><tspan
          sodipodi:role="line"
          id="tspan25067"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:round"
          x="4.3177133"
          y="4.2248769">A</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="4.0110998"
        y="51.709381"
        id="text25069-3"><tspan
          sodipodi:role="line"
          id="tspan25067-8"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:round"
          x="4.0110998"
          y="51.709381">B</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="54.558208"
        y="51.707657"
        id="text25069-4"><tspan
          sodipodi:role="line"
          id="tspan25067-5"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:round"
          x="54.558208"
          y="51.707657">C</tspan></text>
   </g>

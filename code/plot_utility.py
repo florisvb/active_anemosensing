@@ -602,11 +602,12 @@ def get_optimal_psifreq_tau_vs_noise(directory, basename, phi_alignment, angular
         fig = plt.figure()
         ax = fig.add_subplot(111)
         
-        error_heatmap, opt_T = get_best_error_heatmap_across_Tmultipliers_and_optimal_Tmultipler(directory,  
+        error_heatmap, opt_T, optimal_error_std_heatmap = get_best_error_heatmap_across_Tmultipliers_and_optimal_Tmultipler(directory,  
                                                                                               basename, 
                                           angular_noise_std=angular_noise_std,
                                           phi_alignment=phi_alignment,
-                                          paramX=paramX)
+                                          paramX=paramX,
+                                          return_error_std=True)
         
         res = plot_error_heatmap(error_heatmap, directory, basename, angular_noise_std=angular_noise_std, 
                            Tmultiplier=1, paramX=paramX, use='median',
@@ -615,6 +616,9 @@ def get_optimal_psifreq_tau_vs_noise(directory, basename, phi_alignment, angular
                                show_contour=False, ax=ax)
         
         tau_opt, psifreq_opt, error_opt, X3, Y3, Z3, ellipse_tau, ellipse_freq = res
+
+        ix = np.unravel_index(error_heatmap.argmin(), error_heatmap.shape)
+        optimal_error_stds.append(optimal_error_std_heatmap[ ix ])
 
         optimal_tau_values.append(tau_opt)
         optimal_psiqfreq_values.append(psifreq_opt)
@@ -637,7 +641,7 @@ def get_optimal_psifreq_tau_vs_noise(directory, basename, phi_alignment, angular
                            'optimal_freq_ellipse_min': optimal_freq_ellipse_min,
                            'optimal_freq_ellipse_max': optimal_freq_ellipse_max,
                            #'optimal_psiqfreq_stds': optimal_psiqfreq_stds,
-                           #'optimal_error_stds': optimal_error_stds,
+                           'optimal_error_stds': optimal_error_stds,
                            #'optimal_tau_stds': optimal_tau_stds})
                           })
     
@@ -832,7 +836,8 @@ def get_error_heatmap_for_Tmultiplier(directory,  basename,
                                       Tmultiplier=1,
                                       phi_alignment='alignpsi',
                                       paramX=1,
-                                      use='median'):
+                                      use='median',
+                                      return_error_std=False):
 
     filenames, psifreqs, taus, Ts = get_filenames_sorted_by_tau_and_T(directory,  basename, 
                                                                       angular_noise_std=angular_noise_std,
@@ -841,6 +846,7 @@ def get_error_heatmap_for_Tmultiplier(directory,  basename,
                                                                       paramX=paramX)
 
     error_array = np.ones([len(np.unique(psifreqs)), len(np.unique(taus))])*np.nan
+    error_std_array = np.ones([len(np.unique(psifreqs)), len(np.unique(taus))])*np.nan
     all_errors = []
 
     for i, filename in enumerate(filenames):
@@ -874,33 +880,42 @@ def get_error_heatmap_for_Tmultiplier(directory,  basename,
         elif use == 'meanmedian':
             error_median = (np.median(errors) + np.mean(errors))/2
 
+        error_std = np.std(errors)
+
         c = np.argmin( np.abs(data.tau.values[0] - np.unique(taus)) )
         r = np.argmin( np.abs(data.psi_freq.values[0] - np.unique(psifreqs)) )
 
         error_array[r,c] = error_median
+        error_std_array[r,c] = error_std
         
-    return error_array
+    if not return_error_std:
+        return error_array
+    else:
+        return error_array, error_std_array
 
 def get_best_error_heatmap_across_Tmultipliers_and_optimal_Tmultipler(directory,  basename, 
                                       angular_noise_std=0.1,
                                       phi_alignment='alignpsi',
                                       paramX=1,
-                                      use='median'):
+                                      use='median',
+                                      return_error_std=False):
 
     Tmultipliers = [1, 5, 25, 125]
     
     error_heatmaps = []
+    error_std_heatmaps = []
     
     for Tmultiplier in Tmultipliers:
 
-        e = get_error_heatmap_for_Tmultiplier(directory,  basename, 
+        e, e_std = get_error_heatmap_for_Tmultiplier(directory,  basename, 
                                               angular_noise_std=angular_noise_std,
                                               Tmultiplier=Tmultiplier,
                                               phi_alignment=phi_alignment,
                                               paramX=paramX,
-                                              use=use)
+                                              use=use,
+                                              return_error_std=return_error_std)
         error_heatmaps.append(e)
-        
+        error_std_heatmaps.append(e_std)
         
         
     error_heatmaps_stack = np.dstack(error_heatmaps)
@@ -909,14 +924,20 @@ def get_best_error_heatmap_across_Tmultipliers_and_optimal_Tmultipler(directory,
     optimal_Tmultipler_idx = np.zeros_like(error_heatmaps[0])
     optimal_Tmultiplier = np.zeros_like(error_heatmaps[0])
 
+    optimal_error_std_heatmap = np.zeros_like(error_heatmaps[0])
+
     for r in range(optimal_error_heatmap.shape[0]):
         for c in range(optimal_error_heatmap.shape[1]):
             ix = np.argmin(error_heatmaps_stack[r,c,:])
             optimal_Tmultipler_idx[r,c] = ix
             optimal_error_heatmap[r,c] = error_heatmaps_stack[r,c,ix]
             optimal_Tmultiplier[r,c] = Tmultipliers[ix]
+            optimal_error_std_heatmap[r,c] = error_std_heatmaps[ix][r,c]
         
-    return optimal_error_heatmap, optimal_Tmultiplier
+    if not return_error_std:
+        return optimal_error_heatmap, optimal_Tmultiplier
+    else:
+        return optimal_error_heatmap, optimal_Tmultiplier, optimal_error_std_heatmap
 
 def plot_errors(directory, basename, angular_noise_std=0.1, Tmultiplier=1, 
                 paramX=1,
