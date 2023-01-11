@@ -4,7 +4,21 @@
 
 This repository provides all of the code used to analyze the data, run the simulations, and generate the figures, described in the manuscript titled "Active Anemosensing Hypothesis: How Flying Insects Could Estimate Ambient Wind Direction Through Sensory Integration & Active Movement". Authors: Floris van Breugel, Renan Jewell, and Jaleesa Houle. 
 
-The manuscript is available as a preprint at: https://biorxiv.org/cgi/content/short/2022.03.31.486300v1.
+The manuscript is available at: http://doi.org/10.1098/rsif.2022.0258
+
+    @article{doi:10.1098/rsif.2022.0258,
+        author = {van Breugel, Floris  and Jewell, Renan  and Houle, Jaleesa },
+        title = {Active anemosensing hypothesis: how flying insects could estimate ambient wind direction through sensory integration and active movement},
+        journal = {Journal of The Royal Society Interface},
+        volume = {19},
+        number = {193},
+        pages = {20220258},
+        year = {2022},
+        doi = {10.1098/rsif.2022.0258},
+        URL = {https://royalsocietypublishing.org/doi/abs/10.1098/rsif.2022.0258},
+    }
+    
+The preprint is at: https://biorxiv.org/cgi/content/short/2022.03.31.486300v1.
 
     @article {van Breugel2022.03.31.486300,
         author = {van Breugel, Floris and Jewell, Renan and Houle, Jaleesa},
